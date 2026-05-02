@@ -1,2 +1,17 @@
-# fraud-detection-system
-Unsupervised fraud detection system using graph-based merchant behavior analysis, Autoencoder, and One-Class SVM to identify anomalous patterns in digital payment systems.
+# Fraud Detection System
+
+An unsupervised learning-based fraud detection system using graph-based merchant behavior analysis.
+
+## Features
+- Graph-based merchant interaction modeling
+- Autoencoder for anomaly detection
+- One-Class SVM for merchant-level detection
+- PMES scoring system
+
+## Tech Stack
+Python, Scikit-learn, NetworkX, PyTorch
+
+## How to Run
+```bash
+pip install -r requirements.txt
+python app.py
